@@ -33,10 +33,15 @@
 
 **Установка зависимостей:**
 ```bash
-pip install pyTelegramBotAPI matplotlib sqlite3
-
+pip install pyTelegramBotAPI matplotlib pandas  
+```
+**Структура проекта**
+```bash
 finance-bot/
-├── bot.py
-├── database.py
-├── config.py
+├── main.py
+├── financial_data.db
+├── link.txt
 └── requirements.txt
+```
+### 2. Настройка базы данных
+**Схема БД:**
