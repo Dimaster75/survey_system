@@ -164,3 +164,15 @@ def plot_statistics(self, user_id: int, period: str = 'week') -> Optional[str]:
 *Рис. 4. Выведение статистики*
 
 ## Архитектура бота
+![Архитектура](images/archit.png)
+
+*Рис. 3. Архитектурная схема*
+
+## Полезные ресурсы
+[Создание telegram-бота на Python](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python/)
+
+[Документация pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
+
+[Руководство по SQlite](https://www.sqlite.org/docs.html)
+
+[Примеры matplotlib](https://matplotlib.org/stable/gallery/index.html)
