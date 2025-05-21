@@ -144,7 +144,7 @@ def plot_statistics(self, user_id: int, period: str = 'week') -> Optional[str]:
    ```python
    python bot.py
    ```
-## Примеры работы бота
+## Примеры работы 
 **Главное меню:**
 
 ![Меню](images/menu.png)
@@ -163,12 +163,12 @@ def plot_statistics(self, user_id: int, period: str = 'week') -> Optional[str]:
 
 *Рис. 4. Выведение статистики*
 
-## Архитектура бота
+## Архитектура
 ![Архитектура](images/archit.png)
 
 *Рис. 3. Архитектурная схема*
 
-## Полезные ресурсы
+## Ресурсы
 [Создание telegram-бота на Python](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python/)
 
 [Документация pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
