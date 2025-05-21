@@ -34,3 +34,9 @@
 **Установка зависимостей:**
 ```bash
 pip install pyTelegramBotAPI matplotlib sqlite3
+
+finance-bot/
+├── bot.py
+├── database.py
+├── config.py
+└── requirements.txt
