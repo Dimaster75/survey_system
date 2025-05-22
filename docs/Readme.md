@@ -73,23 +73,24 @@ graph TD
 
 **Реализация бота:**
 
-Добавление операции:
+Инициализация базы данных:
 ```python
-def add_expense(message):
-    """Добавление расхода """
-    user_id = message.from_user.id
-    user_data[user_id] = {'state': 'awaiting_category', 'type': 'expense'}
-    
-    markup = types.InlineKeyboardMarkup(row_width=2)
-    buttons = [types.InlineKeyboardButton(cat, callback_data=f"expense_{cat}") 
-              for cat in DEFAULT_CATEGORIES['expense']]
-    markup.add(*buttons)
-    
-    bot.send_message(
-        message.chat.id, 
-        "📉 Выберите категорию расхода:", 
-        reply_markup=markup
-    )
+def _init_db(self):
+        """Инициализирует базу данных и создает таблицы при необходимости"""
+        with sqlite3.connect(self.db_file) as conn:
+            cursor = conn.cursor()
+            cursor.execute("""
+                CREATE TABLE IF NOT EXISTS transactions (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    user_id INTEGER NOT NULL,
+                    type TEXT NOT NULL,
+                    category TEXT NOT NULL,
+                    amount REAL NOT NULL,
+                    date TIMESTAMP NOT NULL,
+                    description TEXT
+                )
+            """)
+            conn.commit()
 ```
 Визуализация данных:
 ```python
