@@ -156,3 +156,19 @@ def callback_handler(call: types.CallbackQuery):
 *Рис. 2. меню бота*
 
 **Полезные ресурсы:**
+
+[Создание telegram-бота на Python](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python/)
+
+[Документация pyTelegramBotAPI](https://github.com/eternnoir/pyTelegramBotAPI)
+
+[Руководство по SQlite](https://www.sqlite.org/docs.html)
+
+[Примеры matplotlib](https://matplotlib.org/stable/gallery/index.html)
+
+[Введение в css верстку](https://developer.mozilla.org/ru/docs/Learn_web_development/Core/CSS_layout/Introduction)
+
+[Элементы HTML](https://developer.mozilla.org/ru/docs/Web/HTML/Element)
+
+[Основы HTML](https://developer.mozilla.org/ru/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content)
+
+[Основы CSS](https://developer.mozilla.org/ru/docs/Web/CSS)
