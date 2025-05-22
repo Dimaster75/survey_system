@@ -146,10 +146,13 @@ def callback_handler(call: types.CallbackQuery):
 ## Приложения
 **Скриншоты интерфейсов:**
 
-![Сайт](docs/images/maket.png)  
+![Сайт](images/maket.png)  
 
 *Рис. 1. главная страница статического сайта*
 
-![Бот](docs/images/menu.png)  
+
+![Бот](images/menu.png)  
 
 *Рис. 2. меню бота*
+
+**Полезные ресурсы:**
